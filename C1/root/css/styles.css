@@ -3,9 +3,8 @@ COMENTAMOS EL CODIGO SIEMPRE!
 */
 
 /* TIPOGRAFIA */ 
-/* TRAIGO LA TIPOGRAFIA */
+/* IMPORTANDO LA TIPOGRAFIA */
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,700&display=swap');
 
 /* APLICO LA TIPOGRAFIA */
@@ -24,6 +23,21 @@ COMENTAMOS EL CODIGO SIEMPRE!
     font-style: italic;
 } 
 
+.parrafo {
+    color:#FF0000;
+    font-style: italic;
+}
+
+p {
+    color:#0000ff;
+    font-size: 24px;
+}
+
+#parrafo-header {
+    color:#008000;
+}
+
+
 
 /* Header */
 
@@ -31,7 +45,7 @@ COMENTAMOS EL CODIGO SIEMPRE!
     background-image: url('https://i.pinimg.com/originals/76/15/db/7615dbf576821d3a8a550d29f3c00593.png');
     background-size: cover;
     background-position: center;
-  height: 200px;
+  
 }
 
 .logo-header { 
