@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ESTILOS DEL HEADER */
+
+.burguer-menu {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 129);
+    align-items: center;
+}
+
+.img-logo {
+    width: 75px;
+    margin-left: 10px;
+}
+
+nav {
+    width: 30%;
+
+}
+
+ul {
+ 
+    display:flex;
+    justify-content: space-around;
+ 
+    list-style-type: none;
+}
+
+/* ESTILOS DEL MAIN */ 
+
+main {
+    display: flex;
+    height: 70vh;
+    /* VH = VIEWPORT HEIGHT */
+    justify-content: space-around;
+    align-items: center;
+}
+
+article img {
+    width: 30%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 20vw;
+    border: 3px solid #000;
+    border-radius: 5px;
+    height: 50vh;
+    margin: 10px;
+}
+
+article div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div p {
+    margin: 10px;
+}
+
+/* MEDIA QUERIES */ 
+/* MAX-WIDTH & MIN-WIDTH */
+
+@media (max-width: 400px) {
+    nav {
+        display:none;
+    }
+
+    .burguer-menu {
+        display: block;
+    }
+}
+
+@media (max-width:900px) {
+    main {
+        flex-direction: column;
+    }
+
+}
