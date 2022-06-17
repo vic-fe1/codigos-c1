@@ -1,0 +1,53 @@
+/* ESTILOS DEL HEADER */ 
+
+/* VIEWPORT MOBILE */
+
+body {
+    margin:0;
+    padding:0;
+
+}
+
+.header-home {
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color: rgba(174, 250, 225, 0.741);
+    padding: 10px 0;
+}
+
+nav {
+    display: none;
+ 
+}
+
+.img-logo{
+    width: 75px;
+}
+
+.fa-burger {
+    font-size: 2rem;
+}
+
+
+/* MEDIA QUERIES */ 
+/* MIN-width: A PARTIR DE */ 
+@media (min-width:600px) {
+    .fa-burger {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        width: 50%;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    li {
+        margin: 0 10px;
+    }
+}
