@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <section>
+      <h3>Registrarte</h3>
+      <p>Es rápido y fácil</p>
+
+      <!-- DENTRO DE FORM USAMOS ETIQUETAS EXCLUSIVAS DE FORM-->
+      <form action="./capturadedatos/form.php" method="POST">
+    
+        <label for="name">Escribí tu nombre:</label>
+        <input type="text" name="name" id="name" placeholder="Nombre" required>
+     
+
+        <label for="email">Escribí tu email:</label>
+        <input type="email" name="email" id="email" placeholder="tuemail@example.com" required>
+
+        <!-- INPUTS COMPLEJOS -->
+        <select name="dia" id="dia">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>  
+    
+        <div>
+        <input type="checkbox" name="tilde" id="tilde">
+        <label for="tilde">Tildame</label>
+
+        <input type="radio" name="radio" id="radio" checked>
+        <label for="radio">Destildame</label>
+        </div>
+
+        <button type="submit">ENVIAR FORMULARIO</button>
+
+    </form>
+    </section>
+  </body>
+</html>
