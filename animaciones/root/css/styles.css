@@ -1,0 +1,58 @@
+body {
+    margin:0;
+    padding:0;
+    height: 100vh;
+    width: 100vw;
+}
+
+article {
+    width: 50%;
+    margin: 5% 25%;
+    height: 70%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #ffb7b7b2;
+
+}
+
+h3 { 
+    transition: all 1.5s ease;
+}
+
+h3:hover {
+    transform: rotate(270deg) scale(0.8) translate(-50px, -200px);
+}
+
+button {
+    border: 1px solid #AAA;
+    border-radius: 10px;
+    padding: 7px 14px;
+    /* TRANSITION QUEDA A LA ESPERA QUE SUCEDA UN CAMBIO DE ESTADO*/
+    transition: all 1.5s ease;
+}
+
+
+button:hover {
+    background-color: rgb(45, 255, 125);
+    transform: translateY(5px) translateX(5px);
+    cursor: pointer;
+}
+
+div {
+    opacity: 0;
+    transition: all 1.5s ease;
+
+}
+
+button:active + div {
+    opacity: 1;
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+}
+
+
+/* CTRL + K + C */
