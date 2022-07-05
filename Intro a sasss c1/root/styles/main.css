@@ -1,0 +1,41 @@
+/* TRABAJANDO EN COCA COLA */
+/* VARIABLE */
+/* NESTING */
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 62px;
+}
+
+main {
+  width: 100vw;
+  height: 75vh;
+  background-color: #FFAAAA;
+  border: 1px solid #000;
+}
+
+/* ARMAR CLASES PARA FLEX; SEGUN SEA ROW O COLUMN, SPACE AROUND O SPACE BETWEEN; TODOS CON ALIGN ITEMS CENTER */
+.button, .button-alternative, .button-secondary, .button-primary {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  transition: all 0.5s linear;
+}
+.button:hover, .button-alternative:hover, .button-secondary:hover, .button-primary:hover {
+  border-bottom: 3px solid #000;
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+.button-primary {
+  background-color: #f21800;
+}
+.button-secondary {
+  background-color: #fbfbfb;
+  color: #000;
+}
+.button-alternative {
+  border: 3px solid #000;
+}
+
+/* EXTEND */
+/* & SHORTHAND *//*# sourceMappingURL=main.css.map */
