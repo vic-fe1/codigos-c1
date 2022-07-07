@@ -1,0 +1,26 @@
+@mixin texto($size, $weight) {
+    font-size: $size;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5;
+    text-decoration: none;
+    color: #000;
+    font-style: normal;
+    font-weight: $weight;
+}
+
+
+
+/* EL MIXIN DEBE REUTILIZARSE EN EL MISMO ARCHIVO */
+
+.texto-normal {
+    @include texto(1rem, 400);
+}
+
+.texto-negrita {
+    @include texto(1rem, 600);
+}
+
+.text-titulos {
+    @include texto(2.5rem, 400);
+}
+
